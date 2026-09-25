@@ -253,11 +253,11 @@ p = dict(no="04", cat="Residential architecture", title="Parsa Villa", sub="Shir
               "ground floor, and a perforated screen wall on the upper level filters sun and view.",
          meta=[("Location", "Shiraz, Iran"), ("Typology", "Private villa · Exterior &amp; landscape"),
                ("Scope", "Architecture · Landscape · Visualization"), ("Year", "2026")])
-hero(p, "p17_0.jpeg", "center 45%")
+hero(p, "parsa-hero.jpg", "center 45%")
 ppage(p, (
-    fig("p18_0.jpeg", cx(1), 16, span(9), 140,
+    fig("parsa-street.jpg", cx(1), 16, span(9), 140,
         cap("Street view.", "The upper mass cantilevers over the glazed ground floor."))
-    + fig("p18_1.jpeg", cx(10), 16, span(3), 40,
+    + fig("parsa-night.jpg", cx(10), 16, span(3), 40,
           cap("Night.", "The concrete shell against warm interior light."))
     + block(cx(10), 73, span(3), text(
         "Landscape",
@@ -285,10 +285,10 @@ p = dict(no="06", cat="Interior architecture", title="Dubai Marina Apartment", s
               "set against matte black surfaces, fluted paneling and warm wood.",
          meta=[("Location", "Dubai Marina, Dubai"), ("Typology", "Apartment interior"),
                ("Scope", "Interior architecture · Visualization"), ("Year", "2026")])
-hero(p, "p21_0.jpeg", "center 50%")
+hero(p, "dm-living.jpg", "center 50%")
 ppage(p, (
     fig("p22_0_w.jpeg", cx(1), 16, span(5), 151.8, cap("Floor plan."), "center", "plan")
-    + fig("p22_1.jpeg", cx(7), 16, span(6), 73.3,
+    + fig("dm-kitchen.jpg", cx(7), 16, span(6), 73.3,
           cap("Kitchen.", "Tall joinery wall, stone-topped island and bar seating."))
     + block(cx(7), 104, span(4), text(
         "Layout",
@@ -297,9 +297,9 @@ ppage(p, (
         "living space by storage and service walls."))
 ), "drawings")
 ppage(p, (
-    fig("p23_0.jpeg", cx(1), 16, span(7), 130,
+    fig("dm-entry.jpg", cx(1), 16, span(7), 130,
         cap("Entry.", "A round mirror set into fluted joinery; the door concealed in the wall."))
-    + fig("p23_1.jpeg", cx(8), 16, span(5), 70,
+    + fig("dm-bedroom.jpg", cx(8), 16, span(5), 70,
           cap("Master bedroom.", "Bed wall and mirror as one joinery piece."))
     + block(cx(8), 100, span(4), text(
         "Joinery",
