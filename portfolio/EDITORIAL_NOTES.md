@@ -39,10 +39,16 @@ No project facts were added. Every name, location, area, year and scope comes fr
 - Project index: missing cells now show "—". The note explains which projects carry a page reference.
 - Contact: the headline now names the studio's stated geography instead of the generic "Let's discuss your project".
 
-## Open questions (not changed; need your confirmation)
-1. **Private Villa**: the website repo (`src/content/projects.ts`) uses the same renders as "Dr. Sajadi Villa". There it is marked *Concept*, 180 m² built on 1,000 m² land. The portfolio says *concept to execution*. Which is correct, and should the area be added?
-2. **Al Barsha Apartment**: the repo uses the same renders as "Dubai Marina Apartment" (2026, Completed). The portfolio says Al Barsha, 2025. Which location and year are correct?
-3. **Villa Sarbast**: the design-study board reads "Sarbast, Fars Province". The portfolio says Shiraz. Please confirm.
-4. **Farnam Saremi's bio** is short because the source gives no years of experience or background. Send details if you'd like it to match Shahin's.
-5. **Missing data**: Parsa Villa, Niknam Villa and O'Munt Store have no location or year. ALO Turkey Office has no location.
-6. **Image resolution** is 110–125 ppi at placement, taken from the compressed digital edition. That is fine on screen, but for print, rebuild using the original renders or the 20 MB "Selected Works" PDF.
+## Confirmed by the client (applied)
+- Al Barsha Apartment is in Dubai Marina. Project renamed **Dubai Marina Apartment**.
+- Villa Sarbast: Shiraz, Iran.
+- Parsa Villa: Shiraz, Iran, 2026.
+- Niknam Villa: Fars Province, Iran, 2025.
+- O'Munt Store: Shiraz, Iran, 2019.
+- ALO Turkey Office: Skyland Tower, Istanbul, 2026.
+
+## Still open
+1. **Private Villa**: the client replied "1 is right". Scope and area are left as in the source PDF ("concept to execution", no area) until it is clear which version that means.
+2. **Dubai Marina Apartment year**: the portfolio says 2025 and the website says 2026. 2025 is kept.
+3. **Farnam Saremi's bio** is short because the source gives no years of experience or background.
+4. **Image resolution** is 110–125 ppi at placement, taken from the compressed digital edition. That is fine on screen, but for print, rebuild from the original renders.

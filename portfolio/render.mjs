@@ -1,4 +1,4 @@
-// Prints portfolio.html to PDF and PNG previews: node render.mjs [--png]
+// Prints portfolio.html to SCALE_Portfolio_Selected_Works.pdf: node render.mjs
 import { chromium } from "/opt/node22/lib/node_modules/playwright/index.mjs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";

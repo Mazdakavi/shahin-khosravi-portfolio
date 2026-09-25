@@ -248,11 +248,11 @@ ppage(p, (
 ))
 
 # ---- 04 Parsa Villa
-p = dict(no="04", cat="Residential architecture", title="Parsa Villa", sub="Private villa — exterior &amp; landscape",
+p = dict(no="04", cat="Residential architecture", title="Parsa Villa", sub="Shiraz, Iran",
          lead="Board-formed concrete volumes. The upper mass steps back and cantilevers over a glazed "
               "ground floor, and a perforated screen wall on the upper level filters sun and view.",
-         meta=[("Typology", "Private villa · Exterior &amp; landscape"),
-               ("Scope", "Architecture · Landscape · Visualization")])
+         meta=[("Location", "Shiraz, Iran"), ("Typology", "Private villa · Exterior &amp; landscape"),
+               ("Scope", "Architecture · Landscape · Visualization"), ("Year", "2026")])
 hero(p, "p17_0.jpeg", "center 45%")
 ppage(p, (
     fig("p18_0.jpeg", cx(1), 16, span(9), 140,
@@ -266,11 +266,11 @@ ppage(p, (
 ))
 
 # ---- 05 Niknam Villa
-p = dict(no="05", cat="Residential architecture", title="Niknam Villa", sub="Private villa — exterior &amp; landscape",
+p = dict(no="05", cat="Residential architecture", title="Niknam Villa", sub="Fars Province, Iran",
          lead="A single-story villa in hand-laid brick. Deep-set openings frame the garden and "
               "filter daylight into the rooms.",
-         meta=[("Typology", "Private villa · Exterior &amp; landscape"),
-               ("Scope", "Architecture · Landscape · Visualization")])
+         meta=[("Location", "Fars Province, Iran"), ("Typology", "Private villa · Exterior &amp; landscape"),
+               ("Scope", "Architecture · Landscape · Visualization"), ("Year", "2025")])
 hero(p, "p19_0.jpeg", "center 50%")
 ppage(p, (
     fig("p20_0.jpeg", cx(1), 16, span(12), 149,
@@ -279,11 +279,11 @@ ppage(p, (
             'its terrain. A sunken fire pit sets the gathering point between house and garden.</p>')
 ))
 
-# ---- 06 Al Barsha Apartment
-p = dict(no="06", cat="Interior architecture", title="Al Barsha Apartment", sub="Al Barsha, Dubai",
+# ---- 06 Dubai Marina Apartment
+p = dict(no="06", cat="Interior architecture", title="Dubai Marina Apartment", sub="Dubai Marina, Dubai",
          lead="An apartment organized around one open living and kitchen zone. A white envelope is "
               "set against matte black surfaces, fluted paneling and warm wood.",
-         meta=[("Location", "Al Barsha, Dubai"), ("Typology", "Apartment interior"),
+         meta=[("Location", "Dubai Marina, Dubai"), ("Typology", "Apartment interior"),
                ("Scope", "Interior architecture · Visualization"), ("Year", "2025")])
 hero(p, "p21_0.jpeg", "center 50%")
 ppage(p, (
@@ -336,11 +336,11 @@ ppage(p, (
 ), "drawings")
 
 # ---- 08 O'Munt Store
-p = dict(no="08", cat="Commercial / retail", title="O’Munt Store", sub="Fashion retail — exterior &amp; interior",
+p = dict(no="08", cat="Commercial / retail", title="O’Munt Store", sub="Shiraz, Iran",
          lead="A two-level fashion store whose shopfront reads as a lit volume on the street at "
               "night. Inside, a floating stair links the retail floor to a mezzanine.",
-         meta=[("Typology", "Fashion retail · Exterior &amp; interior"),
-               ("Scope", "Architecture · Interior · Visualization")])
+         meta=[("Location", "Shiraz, Iran"), ("Typology", "Fashion retail · Exterior &amp; interior"),
+               ("Scope", "Architecture · Interior · Visualization"), ("Year", "2019")])
 hero(p, "p27_0.jpeg", "center 40%")
 ppage(p, (
     fig("p28_0.jpeg", cx(1), 16, span(8), 98.6,
@@ -364,11 +364,11 @@ ppage(p, (
 ))
 
 # ---- 09 ALO Turkey Office
-p = dict(no="09", cat="Workplace", title="ALO Turkey Office", sub="Real estate office — interior",
+p = dict(no="09", cat="Workplace", title="ALO Turkey Office", sub="Skyland Tower, Istanbul",
          lead="An office planned around a central meeting table, with a glazed meeting room and "
               "private offices along the tower façade. Dark exposed ceilings and linear light are "
               "set against pale plaster, oak and timber slats.",
-         meta=[("Typology", "Real estate office interior"),
+         meta=[("Location", "Skyland Tower, Istanbul, Turkey"), ("Typology", "Real estate office interior"),
                ("Scope", "Interior architecture · Visualization"), ("Year", "2026")])
 hero(p, "p30_0.jpeg", "center 55%")
 ppage(p, (
@@ -479,20 +479,20 @@ index = [
         ("Palm Jumeirah Duplex Villa", "Palm Jumeirah, Dubai", "Duplex residential villa · 570 m²", "Architecture · Interior · Visualization", "2026", "01"),
         ("Villa Sarbast", "Shiraz, Iran", "Private villa", "Architecture · Interior · Visualization", "2026", "02"),
         ("Private Villa", "Shiraz, Iran", "Private villa", "Architecture · Interior — concept to execution", "2024", "03"),
-        ("Parsa Villa", "—", "Private villa · Exterior &amp; landscape", "Architecture · Landscape · Visualization", "—", "04"),
-        ("Niknam Villa", "—", "Private villa · Exterior &amp; landscape", "Architecture · Landscape · Visualization", "—", "05"),
+        ("Parsa Villa", "Shiraz, Iran", "Private villa · Exterior &amp; landscape", "Architecture · Landscape · Visualization", "2026", "04"),
+        ("Niknam Villa", "Fars Province, Iran", "Private villa · Exterior &amp; landscape", "Architecture · Landscape · Visualization", "2025", "05"),
         ("Villa Lapui", "Shiraz, Iran", "Villa renovation", "Architecture · Interior — concept to execution", "2022", None),
         ("Villa Renovation", "Shiraz, Iran", "Villa renovation", "Architecture · Interior — concept to execution", "2021", None),
     ]),
     ("Interior architecture", [
-        ("Al Barsha Apartment", "Al Barsha, Dubai", "Apartment interior", "Interior architecture · Visualization", "2025", "06"),
+        ("Dubai Marina Apartment", "Dubai Marina, Dubai", "Apartment interior", "Interior architecture · Visualization", "2025", "06"),
         ("Regalia Tower Apartment", "Business Bay, Dubai", "Apartment interior · 68 m²", "Interior architecture · Visualization", "2025", None),
         ("Rakhshan Apartment", "—", "Apartment interior", "Interior architecture · Visualization", "—", None),
     ]),
     ("Commercial / retail · Workplace", [
         ("Dousideh Boutique", "Dubai", "Fashion boutique interior", "Interior design · Joinery · Visualization", "2026", "07"),
-        ("O’Munt Store", "—", "Fashion retail · Exterior &amp; interior", "Architecture · Interior · Visualization", "—", "08"),
-        ("ALO Turkey Office", "—", "Real estate office interior", "Interior architecture · Visualization", "2026", "09"),
+        ("O’Munt Store", "Shiraz, Iran", "Fashion retail · Exterior &amp; interior", "Architecture · Interior · Visualization", "2019", "08"),
+        ("ALO Turkey Office", "Istanbul, Turkey", "Real estate office interior", "Interior architecture · Visualization", "2026", "09"),
     ]),
 ]
 page_of = {q["no"]: q["page"] for q in projects}
@@ -531,7 +531,7 @@ proj = {q["title"]: q["page"] for q in projects}
 evidence = [
     ("Massing and section study", "Villa Sarbast", proj["Villa Sarbast"] + 1),
     ("Plans developed in Revit", "Villa Sarbast", proj["Villa Sarbast"] + 2),
-    ("Apartment plan with joinery", "Al Barsha Apartment", proj["Al Barsha Apartment"] + 1),
+    ("Apartment plan with joinery", "Dubai Marina Apartment", proj["Dubai Marina Apartment"] + 1),
     ("Joinery elevations for fabrication", "Dousideh Boutique", proj["Dousideh Boutique"] + 2),
     ("Dimensioned office plan", "ALO Turkey Office", proj["ALO Turkey Office"] + 2),
 ]
