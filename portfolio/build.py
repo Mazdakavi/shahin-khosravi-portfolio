@@ -464,7 +464,7 @@ FOUNDERS = page("Founders", (
     + block(cx(1), 112, span(6),
             '<div class="founder"><h2>Shahin Khosravi</h2><div class="lab">Co-founder — Architect &amp; interior designer</div>'
             '<p class="txt">Over twelve years of experience across architecture, interior design, technical '
-            'documentation, visualization and site coordination. Shahin develops projects from concept '
+            'documentation, visualization and site coordination — developing projects from concept '
             'design through construction drawings, material coordination and site support, with a focus '
             'on translating design intent into buildable detail.</p></div>')
     + block(cx(7), 112, span(6),
