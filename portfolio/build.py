@@ -218,7 +218,7 @@ p = dict(no="03", cat="Residential architecture", title="Private Villa", sub="Sh
               "infinity-edge pool. The pool organizes the outdoor room and returns the architecture "
               "as reflection; gravel, stone and restrained planting keep attention on material and light.",
          meta=[("Location", "Shiraz, Iran"), ("Typology", "Private villa · Exterior &amp; interior"),
-               ("Scope", "Architecture · Interior —<br>concept to execution"), ("Year", "2024")])
+               ("Area", "180 m² built · 1,000 m² plot"), ("Scope", "Architecture · Interior —<br>concept to execution"), ("Year", "2024")])
 hero(p, "p13_0.jpeg", "center 62%")
 ppage(p, (
     fig("p14_0.jpeg", cx(1), 16, span(8), 150,
@@ -284,7 +284,7 @@ p = dict(no="06", cat="Interior architecture", title="Dubai Marina Apartment", s
          lead="An apartment organized around one open living and kitchen zone. A white envelope is "
               "set against matte black surfaces, fluted paneling and warm wood.",
          meta=[("Location", "Dubai Marina, Dubai"), ("Typology", "Apartment interior"),
-               ("Scope", "Interior architecture · Visualization"), ("Year", "2025")])
+               ("Scope", "Interior architecture · Visualization"), ("Year", "2026")])
 hero(p, "p21_0.jpeg", "center 50%")
 ppage(p, (
     fig("p22_0_w.jpeg", cx(1), 16, span(5), 151.8, cap("Floor plan."), "center", "plan")
@@ -478,14 +478,14 @@ index = [
     ("Residential architecture", [
         ("Palm Jumeirah Duplex Villa", "Palm Jumeirah, Dubai", "Duplex residential villa · 570 m²", "Architecture · Interior · Visualization", "2026", "01"),
         ("Villa Sarbast", "Shiraz, Iran", "Private villa", "Architecture · Interior · Visualization", "2026", "02"),
-        ("Private Villa", "Shiraz, Iran", "Private villa", "Architecture · Interior — concept to execution", "2024", "03"),
+        ("Private Villa", "Shiraz, Iran", "Private villa · 180 m²", "Architecture · Interior — concept to execution", "2024", "03"),
         ("Parsa Villa", "Shiraz, Iran", "Private villa · Exterior &amp; landscape", "Architecture · Landscape · Visualization", "2026", "04"),
         ("Niknam Villa", "Fars Province, Iran", "Private villa · Exterior &amp; landscape", "Architecture · Landscape · Visualization", "2025", "05"),
         ("Villa Lapui", "Shiraz, Iran", "Villa renovation", "Architecture · Interior — concept to execution", "2022", None),
         ("Villa Renovation", "Shiraz, Iran", "Villa renovation", "Architecture · Interior — concept to execution", "2021", None),
     ]),
     ("Interior architecture", [
-        ("Dubai Marina Apartment", "Dubai Marina, Dubai", "Apartment interior", "Interior architecture · Visualization", "2025", "06"),
+        ("Dubai Marina Apartment", "Dubai Marina, Dubai", "Apartment interior", "Interior architecture · Visualization", "2026", "06"),
         ("Regalia Tower Apartment", "Business Bay, Dubai", "Apartment interior · 68 m²", "Interior architecture · Visualization", "2025", None),
         ("Rakhshan Apartment", "—", "Apartment interior", "Interior architecture · Visualization", "—", None),
     ]),

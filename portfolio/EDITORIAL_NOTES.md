@@ -46,9 +46,9 @@ No project facts were added. Every name, location, area, year and scope comes fr
 - Niknam Villa: Fars Province, Iran, 2025.
 - O'Munt Store: Shiraz, Iran, 2019.
 - ALO Turkey Office: Skyland Tower, Istanbul, 2026.
+- Private Villa: concept to execution; 180 m² built on a 1,000 m² plot.
+- Dubai Marina Apartment: 2026.
 
 ## Still open
-1. **Private Villa**: the client replied "1 is right". Scope and area are left as in the source PDF ("concept to execution", no area) until it is clear which version that means.
-2. **Dubai Marina Apartment year**: the portfolio says 2025 and the website says 2026. 2025 is kept.
-3. **Farnam Saremi's bio** is short because the source gives no years of experience or background.
-4. **Image resolution** is 110–125 ppi at placement, taken from the compressed digital edition. That is fine on screen, but for print, rebuild from the original renders.
+1. **Farnam Saremi's bio**: the client asked for the bio from the SCALE website. scaleatelier.ae could not be reached from the build environment, and the text is not in this repository, so the portfolio bio is unchanged.
+2. **Image resolution** is 110–125 ppi at placement, taken from the compressed digital edition. That is fine on screen, but for print, rebuild from the original renders.
