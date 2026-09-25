@@ -48,7 +48,7 @@ No project facts were added. Every name, location, area, year and scope comes fr
 - ALO Turkey Office: Skyland Tower, Istanbul, 2026.
 - Private Villa: concept to execution; 180 m² built on a 1,000 m² plot.
 - Dubai Marina Apartment: 2026.
+- Farnam Saremi: bio taken from the SCALE website.
 
 ## Still open
-1. **Farnam Saremi's bio**: the client asked for the bio from the SCALE website. scaleatelier.ae could not be reached from the build environment, and the text is not in this repository, so the portfolio bio is unchanged.
-2. **Image resolution** is 110–125 ppi at placement, taken from the compressed digital edition. That is fine on screen, but for print, rebuild from the original renders.
+1. **Image resolution** is 110–125 ppi at placement, taken from the compressed digital edition. That is fine on screen, but for print, rebuild from the original renders.

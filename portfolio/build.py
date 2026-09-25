@@ -470,7 +470,8 @@ FOUNDERS = page("Founders", (
     + block(cx(7), 112, span(6),
             '<div class="founder"><h2>Farnam Saremi</h2><div class="lab">Co-founder — Architect &amp; interior designer</div>'
             '<p class="txt">Co-leads the studio’s design and delivery, working across spatial planning, '
-            'material and joinery detailing, and project coordination.</p></div>')
+            'material and joinery detailing and project coordination — holding the same commitment '
+            'to controlled proportion, calm material palettes and construction-conscious design.</p></div>')
 ))
 
 # ================================================================ INDEX
