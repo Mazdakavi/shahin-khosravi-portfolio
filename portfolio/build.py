@@ -346,7 +346,7 @@ ppage(p, (
     fig("p28_0.jpeg", cx(1), 16, span(8), 98.6,
         cap("Reception.", "A sculpted desk on axis, framed by steel garment rails and stone plinths."))
     + fig("p28_1.jpeg", cx(9), 16, span(4), 47.8, cap("Retail floor.", "Track lighting keeps the focus on the product."))
-    + fig("p28_2.jpeg", cx(9), 74, span(4), 47.8, cap("Fitting rooms.", "Arched openings in soft grey."))
+    + fig("p28_2.jpeg", cx(9), 74, span(4), 47.8, cap("Fitting rooms.", "Arched openings in soft gray."))
     + block(cx(1), 128, span(5), text(
         "Spatial sequence",
         "The ground floor reads as one continuous room. Garment rails and plinths set out the "
@@ -368,7 +368,7 @@ p = dict(no="09", cat="Workplace", title="ALO Turkey Office", sub="Skyland Tower
          lead="An office planned around a central meeting table, with a glazed meeting room and "
               "private offices along the tower façade. Dark exposed ceilings and linear light are "
               "set against pale plaster, oak and timber slats.",
-         meta=[("Location", "Skyland Tower, Istanbul, Turkey"), ("Typology", "Real estate office interior"),
+         meta=[("Location", "Skyland Tower, Istanbul"), ("Typology", "Real estate office interior"),
                ("Scope", "Interior architecture · Visualization"), ("Year", "2026")])
 hero(p, "p30_0.jpeg", "center 55%")
 ppage(p, (
@@ -493,7 +493,7 @@ index = [
     ("Commercial / retail · Workplace", [
         ("Dousideh Boutique", "Dubai", "Fashion boutique interior", "Interior design · Joinery · Visualization", "2026", "07"),
         ("O’Munt Store", "Shiraz, Iran", "Fashion retail · Exterior &amp; interior", "Architecture · Interior · Visualization", "2019", "08"),
-        ("ALO Turkey Office", "Istanbul, Turkey", "Real estate office interior", "Interior architecture · Visualization", "2026", "09"),
+        ("ALO Turkey Office", "Skyland Tower, Istanbul", "Real estate office interior", "Interior architecture · Visualization", "2026", "09"),
     ]),
 ]
 page_of = {q["no"]: q["page"] for q in projects}
